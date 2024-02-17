@@ -13,15 +13,21 @@ function App() {
     <>
       <HeaderSection />
       <SubHeader />
-      <CarouselFade />
+      <section id="section1">
+        <CarouselFade />
+      </section>
       <section>
-        <Container>
+        <Container id="section2">
           <Services />
         </Container>
-        <ContactUs />
+        <section id="section3">
+          <ContactUs />
+        </section>
         <footer className="footer">
           <Container>
-            <Col className="mb-2 footerText">©2024. Zot Group. All Rights Reserved.</Col>
+            <Col className="mb-2 footerText">
+              ©2024. Zot Group. All Rights Reserved.
+            </Col>
           </Container>
         </footer>
       </section>

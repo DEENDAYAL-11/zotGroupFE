@@ -124,7 +124,6 @@
   line-height: 1rem !important;
 }
 .contactUs {
-  height: 20rem;
   background-image: linear-gradient(var(--primary-color), #e0d5d0);
 }
 .color-white {
@@ -138,7 +137,7 @@
   font-weight: bolder !important;
   float: right !important;
 }
-.form-label {
+.form-label,.formText {
   font-size: 14px !important;
   font-weight: 600;
 }
@@ -146,7 +145,7 @@
   border: none !important;
   box-shadow: none !important;
 }
-.h-50{height: 50px !important;}
+.h-50px{min-height: 50px !important;}
 .footer{
   height: 150px;
   background-color: #e0d5d0;
@@ -157,4 +156,9 @@
   font-size: 14px;
   color: #ff7b29;
   text-align: center;
+}
+.errorMessage{
+  font-size: 12px;
+  color: red;
+  letter-spacing: 1px;
 }
