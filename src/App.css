@@ -1,5 +1,7 @@
 :root {
   --primary-color: #ff7b29;
+  --color-gray: #7a7a7a;
+  --font-size-14: 14px;
 }
 
 .headerSection {
@@ -60,4 +62,69 @@
 .carousel-control-next,
 .carousel-control-prev {
   display: none !important;
+}
+
+.logo {
+  width: 70px;
+  padding: 8px;
+}
+.logoSection {
+  text-align: center;
+  line-height: 1px;
+  color: var(--primary-color);
+}
+.subTitle {
+  font-size: var(--font-size-14);
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+.nav-link {
+  font-size: var(--font-size-14) !important;
+  font-weight: bolder !important;
+  color: var(--primary-color) !important;
+}
+
+.bannerImage {
+  width: 100%;
+  border-radius: 0px 25px 0px 25px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.color-primary {
+  color: var(--primary-color) !important;
+}
+.color-gray {
+  color: var(--color-gray);
+}
+
+.text1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.text2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.text3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.subTextStyle{
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.heading1{
+  font-size: 30px;
+  font-weight: 600;
+  
+}
+.card-img-top {
+  width: 100%;
+  height: 230px !important;
+}
+.line-height-1{
+  line-height: 1rem !important;
+}
+.contactUs{
+  height: 20rem;
+  background-image:  linear-gradient(var(--primary-color), #fff);
 }
