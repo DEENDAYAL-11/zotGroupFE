@@ -108,23 +108,53 @@
   font-size: 16px;
   font-weight: 600;
 }
-.subTextStyle{
+.subTextStyle {
   line-height: 1.5rem;
   text-align: justify;
 }
-.heading1{
+.heading1 {
   font-size: 30px;
   font-weight: 600;
-  
 }
 .card-img-top {
   width: 100%;
   height: 230px !important;
 }
-.line-height-1{
+.line-height-1 {
   line-height: 1rem !important;
 }
-.contactUs{
+.contactUs {
   height: 20rem;
-  background-image:  linear-gradient(var(--primary-color), #fff);
+  background-image: linear-gradient(var(--primary-color), #e0d5d0);
+}
+.color-white {
+  color: #fff;
+}
+.submitButton {
+  background-color: #ff7b29 !important;
+  color: #fff !important;
+  border: none !important;
+  font-size: 16px !important;
+  font-weight: bolder !important;
+  float: right !important;
+}
+.form-label {
+  font-size: 14px !important;
+  font-weight: 600;
+}
+.form-control:focus{
+  border: none !important;
+  box-shadow: none !important;
+}
+.h-50{height: 50px !important;}
+.footer{
+  height: 150px;
+  background-color: #e0d5d0;
+  display: flex;
+  align-items: flex-end;
+}
+.footerText{
+  font-size: 14px;
+  color: #ff7b29;
+  text-align: center;
 }

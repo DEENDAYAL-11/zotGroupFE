@@ -6,6 +6,7 @@ import SubHeader from "./component/SubHeader";
 import { Container } from "react-bootstrap";
 import Services from "./component/Services";
 import ContactUs from "./component/Contact";
+import { Col } from "react-bootstrap";
 
 function App() {
   return (
@@ -13,11 +14,16 @@ function App() {
       <HeaderSection />
       <SubHeader />
       <CarouselFade />
-      <section className="mb-5">
+      <section>
         <Container>
-          <Services/>
+          <Services />
         </Container>
-        <ContactUs/>
+        <ContactUs />
+        <footer className="footer">
+          <Container>
+            <Col className="mb-2 footerText">©2024. Zot Group. All Rights Reserved.</Col>
+          </Container>
+        </footer>
       </section>
     </>
   );

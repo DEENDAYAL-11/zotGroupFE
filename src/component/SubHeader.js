@@ -14,9 +14,9 @@ const SubHeader = () => {
             <i className="subTitle">Smart Speed Perfect </i>
             </Navbar.Brand>
             <Nav className="ml-auto">
-              <Nav.Link href="">Home</Nav.Link>
-              <Nav.Link href="">Services</Nav.Link>
-              <Nav.Link href="">Contact</Nav.Link>
+              <Nav.Link >Home</Nav.Link>
+              <Nav.Link >Services</Nav.Link>
+              <Nav.Link >Contact</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
